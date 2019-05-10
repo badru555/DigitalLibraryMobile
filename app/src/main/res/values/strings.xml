@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DigLib</string>
+    <string name="title_activity_syariah">syariah</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="string1">satu</string>
+    <string name="string2">dua</string>
+    <string name="contoh_judul">Comment or uncomment blocks of code. Select your code block and press the shortcut.</string>
+    <string name="contoh_abstrak">Move a code element to the left or to the right. Place the caret at the desired code element, or select the elements to be moved and press the appropriate shortcut.
+For example, for Java you can use these actions for method invocation or method declaration arguments, enum constants, array initializer expressions. For XML or HTML, use these actions for tag attributes. </string>
+</resources>

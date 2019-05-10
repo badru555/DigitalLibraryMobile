@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.badrus.percobaanproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Pendukung.Splashing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Pendukung.PDFActivity" />
+        <activity android:name=".ushuludin" />
+        <activity android:name=".tarbiyah" />
+        <activity
+            android:name=".syariah"
+            android:label="@string/title_activity_syariah" />
+        <activity android:name=".Pendukung.viewdetail" />
+        <activity android:name=".ilmukesehatan" />
+        <activity android:name=".fem" />
+        <activity android:name=".saintek" />
+        <activity android:name=".humaniora"></activity>
+    </application>
+
+</manifest>
